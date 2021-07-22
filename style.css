@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{font-family: 'Roboto', sans-serif;}
+.header {
+    width:100%;
+    background: rgba(82,95,78,1.00);
+    padding:20px 0;
+    opacity:0.7;
+    position:absolute;
+}
+.container{
+/*    background:red;*/
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+}
+.logo{
+    width:10%;
+    overflow:hidden;
+}
+.logo a {
+    font-size:25px;
+    text-decoration:none;
+    color:white;
+}
+.logo a:hover {
+    opacity: 0.7;
+
+}
+.nav{
+   width:80%; 
+}
+.nav ul {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    list-style:none;
+    height:100%
+}
+.nav ul li {
+    margin:0 24px;
+}
+.nav ul li a {
+    text-decoration:none;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nav ul li a:hover{
+    opacity: 0.8;
+}
+.icon{
+    width:10%;
+/*    background:pink;*/
+    
+}
+
+.banner {
+    width:100%;
+    height:100vh;
+/*    background:orange;*/
+}
+.banner video {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    
+}
+
+
+.text-box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+    coler:black;
+    background:rgba(82,95,78,1.00);
+    padding:35px 50px 50px;
+    opacity:0.7;
+    
+}
+.text-box h3 {
+    font-weight: 400;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    color: white;
+}
+
+.text-box h4 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin: 60px ;
+    color:white;
+}
+.text-box a {
+    color:white;
+    text-align:none;
+    padding:20px 40px;
+    font-size:14px;
+    text-decoration:none;
+    letter-spacing:3px;
+    border: 1px solid #ffffff;
+}
+.text-box a:hover {
+    color:black;
+    background: white;
+}
+.icon a {
+    color:white;
+    font-size:24px;
+    margin:  0 10px;
+}
+.arrow {
+    color: white;
+    font-size: 48px;
+    position:absolute;
+    bottom:20px;
+    cursor: pointer;
+    align-items: center;
+    left:48%;
+}
+.arrow a {
+    color: white;
+}
+.arrow a:hover {
+   color:rgba(44,75,53,1.00); 
+}
+
+
+.blog {
+    height:600px;
+/*    background:grey;*/
+    color :aliceblue;
+}
+.top-1 {
+    backround:red;
+   width:100%;
+    height:200px;
+    
+    
+}
+.services {
+    height:500px;
+    
+    color :aliceblue;
+    
+}
+
+.gioi-thieu {
+    height:600px;
+    background:white;
+    color :aliceblue;
+}
+.content {
+    position:absolute;
+    width:45%;
+    height:400px;
+    text-align: center;
+    text-decoration: none;
+    margin:200px 0;
+    color:rgba(82,95,78,1.00);
+    margin-left: 52px;
+} 
+.content h1 {
+    
+    text-size:25px;
+
+    margin-bottom: 20px;
+    
+}
+.content p {
+    margin:20px;
+    text-size:15px;
+}
+.banner-right {
+    right:50px;
+    margin-top:45px;
+    float:right;
+    width:50%;
+    
+    
+}
+.banner-right img{
+    width:100%;
+    height:100%;
+}
+
+.section-2 {
+/*    background:#F9CDCE;*/
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 0;
+    width:100%;
+    margin-top: 20px;
+}
+.content-1 {
+    width:40%;
+    height:300px;
+/*    background:black;*/
+    margin-top: 60px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+
+}
+.content-1 img {
+    width:100%;
+    height:300px;
+    
+}
+.nd {
+    width:100%;
+    height:300px;
+    background:#777777;
+    color:white ;
+    position:absolute;
+    top:0;
+    left:0;
+    visibility:hidden;
+    transition-duration: 1s;
+    magrin-top:20px;
+     text-transform: uppercase;
+}
+.content-1:hover .nd{opacity:0.7;
+    visibility:visible;}
+.nd h2{
+    margin-top:5px;
+        padding:39px 50px 50px;
+}
+.sale {
+    height:400px;
+/*    background:rgba(82,95,78,1.00);*/
+    color : rgba(82,95,78,1.00);
+    
+}
+
+.top  {
+    width: 50%;
+    height: 100px;
+/*        background: rgba(242,103,105,1.00);*/
+    margin-left: 65px;
+}
+.top h1{
+
+    margin-bottom: 10px;
+}
+.top h1:hover {
+    color:chartreuse;
+}
+.bottom {
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 0;
+}
+.content-2 {
+    width:50%;
+    height:210px;
+    background:rgba(82,95,78,1.00);
+    margin-top: 60px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+    margin: 10px;
+    color:white;
+    
+}
+.content-2  img{
+    width:100%;
+    height:180px;
+}
+.content-2 p:hover{
+    color:aquamarine;
+}
+.top-1 {
+    width:100%;
+    height:100px;
+/*    background:red;*/
+    text-align: center;
+    color:rgba(44,75,53,1.00);
+    margin-top:50px;
+        
+}
+.top-1  h2 {
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    
+}
+.text-box-1 {
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 0;
+
+}
+.content-3 {
+     width:50%;
+    height:410px;
+/*    background:rgba(82,95,78,1.00);*/
+    margin-top: 60px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+    margin: 10px;
+    color:rgba(82,95,78,1.00);
+    padding: 5px 10px 5px;
+/*    align-items: center;*/
+    
+}
+.content-3 img {
+    width:45%;
+    height :50%;
+}
+.text-box-2 {
+    width:100%;
+    height:100%;
+/*    background:rgba(249,205,206,1.00);*/
+    
+    
+}
+.text-box-2 video {
+    width:100%;
+    height:100%;
+/*    object-fit:cover;*/
+    left:50%;
+    top:50%;
+    
+}
+.contact{
+     height:500px;
+    background:rgba(44,75,53,1.00);
+    color :#2C4B35;
+    align-items: center;
+}
+.footer {
+     height:140px;
+    margin-top:20px
+
+    
+    
+}
+.toptop{
+/*    color :aliceblue;*/
+/*     background:#F9CDCE;*/
+    display:flex;
+    justify-content:space-around;
+    padding: 20px 0;
+    color:rgba(44,75,53,1.00);
+    height:100%;
+}
+.content-4{
+    
+/*    background:black;*/
+    width:15%;
+    height:120px;
+/*    background:#E15052;*/
+    margin :10px;
+}
+.bottomm p {
+    margin-top:110px;
+    height:50px;
+/*    background:red*/
+        
+}
